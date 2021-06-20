@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Hello from './Hello';
-import Clock from './Clock';
+// import App from './App';
+// import Hello from './Hello';
+// import Clock from './Clock';
+import Props from './Props';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Hello /> */}
-    <Clock />
+    {/* <Clock /> */}
+    <Props attr="p" attr2="outro" attr3="VALUE3" />
   </React.StrictMode>,
   document.getElementById('root')
 );
