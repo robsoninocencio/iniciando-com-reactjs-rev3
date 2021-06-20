@@ -4,7 +4,8 @@ import './index.css';
 // import App from './App';
 // import Hello from './Hello';
 // import Clock from './Clock';
-import Props from './Props';
+// import Props from './Props';
+import State from './State';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -12,7 +13,8 @@ ReactDOM.render(
     {/* <App /> */}
     {/* <Hello /> */}
     {/* <Clock /> */}
-    <Props attr="p" attr2="outro" attr3="VALUE3" />
+    {/* <Props attr="p" attr2="outro" attr3="VALUE3" /> */}
+    <State />
   </React.StrictMode>,
   document.getElementById('root')
 );
