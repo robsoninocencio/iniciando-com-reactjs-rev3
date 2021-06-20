@@ -5,7 +5,8 @@ import './index.css';
 // import Hello from './Hello';
 // import Clock from './Clock';
 // import Props from './Props';
-import State from './State';
+// import State from './State';
+import Clock2 from './Clock2';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -14,7 +15,8 @@ ReactDOM.render(
     {/* <Hello /> */}
     {/* <Clock /> */}
     {/* <Props attr="p" attr2="outro" attr3="VALUE3" /> */}
-    <State />
+    {/* <State /> */}
+    <Clock2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
