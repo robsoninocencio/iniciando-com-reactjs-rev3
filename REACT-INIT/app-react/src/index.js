@@ -7,7 +7,8 @@ import './index.css';
 // import Props from './Props';
 // import State from './State';
 // import Clock2 from './Clock2';
-import Events from './Events';
+// import Events from './Events';
+import Events2 from './Events2';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -18,7 +19,8 @@ ReactDOM.render(
     {/* <Props attr="p" attr2="outro" attr3="VALUE3" /> */}
     {/* <State /> */}
     {/* <Clock2 /> */}
-    <Events />
+    {/* <Events /> */}
+    <Events2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
