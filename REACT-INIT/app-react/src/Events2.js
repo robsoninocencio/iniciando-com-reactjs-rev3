@@ -15,10 +15,10 @@ export default class Events2 extends Component {
         // console.log('STATE = ', this.state)
     }
 
-    insertToData = () => {
-        this.state.data.push(this.state.name);
-        console.log(this.state);
-    }
+    // insertToData = () => {
+    //     this.state.data.push(this.state.name);
+    //     console.log(this.state);
+    // }
 
     insertToData = () => {
         const arr = this.state.data;

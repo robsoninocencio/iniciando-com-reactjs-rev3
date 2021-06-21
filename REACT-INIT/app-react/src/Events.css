@@ -1,0 +1,12 @@
+.Event-body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-top: 10px;
+}
+
+.Event-button {
+  margin-right: 10px;
+}

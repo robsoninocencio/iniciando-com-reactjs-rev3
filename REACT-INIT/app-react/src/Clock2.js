@@ -10,10 +10,10 @@ export default class Clock2 extends Component {
                 .toLocaleString(
                     'en-US',
                     {
-                        hour: 'numeric',
+                        hour: "2-digit",
                         minute: 'numeric',
                         second: 'numeric',
-                        hour12: true
+                        hour12: false
                     }
                 )
         }
@@ -33,10 +33,10 @@ export default class Clock2 extends Component {
                 .toLocaleString(
                     'en-US',
                     {
-                        hour: 'numeric',
+                        hour: "2-digit",
                         minute: 'numeric',
                         second: 'numeric',
-                        hour12: true
+                        hour12: false
                     }
                 ),
             name: 'Robson'

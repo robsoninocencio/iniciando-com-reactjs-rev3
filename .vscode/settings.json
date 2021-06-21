@@ -4,7 +4,8 @@
         "headercolor",
         "headertext",
         "noopener",
-        "noreferrer"
+        "noreferrer",
+        "webfonts"
     ],
     "git.enableCommitSigning": true
 }

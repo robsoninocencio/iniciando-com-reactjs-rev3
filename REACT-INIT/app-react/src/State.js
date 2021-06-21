@@ -7,7 +7,6 @@ export default class State extends Component {
             name: 'Robson',
             age: 43
         };
-        console.log(this.state);
     }
 
     render() {

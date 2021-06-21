@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Panel extends Component {
+    // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props);
     }

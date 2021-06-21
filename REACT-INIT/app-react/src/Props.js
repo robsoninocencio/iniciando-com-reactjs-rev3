@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import Panel from './Panel';
 
 export default class Props extends Component {
+    // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props);
-        const { attr, attr2, attr3 } = this.props;
-        console.log(attr, attr2, attr3);
     }
 
     render() {
-        const { attr, attr2, attr3 } = this.props;
+        const { attr, attr2 } = this.props;
         return (
             <div>
                 {attr === 'p' ? <p>props.attr = {attr}</p> : <h1>props.attr = {attr}</h1>}
